@@ -21,5 +21,22 @@
         <!-- Styles -->
         <style>
         </style>
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
+    <body class="bg-main overflow-x-hidden">
+        <nav class="w-full text-accent h-8 md:h-14 lg:h-20">
+            <div class="text-sm sm:text-2xl font-bold flex items-center h-full">
+                calebybee
+            </div>
+        </nav>
+
+        <div class="bg-red-500 w-full scroll-smooth snap-y h-screen">
+            <div class="bg-green-500 snap-start h-[calc(100%-2rem)] md:h-[calc(100%-3.5rem)] lg:h-[calc(100%-5rem)]">
+
+            </div>
+            <div class="bg-blue-500 snap-start h-[calc(100%-2rem)] md:h-[calc(100%-3.5rem)] lg:h-[calc(100%-5rem)]">
+
+            </div>
+        </div>
+    </body>
 </html>
